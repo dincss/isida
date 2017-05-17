@@ -1,0 +1,179 @@
+.text_page-header-greenline {
+  width: 100%;
+  height: 2px;
+  background: #009C70;
+}
+.text_page-header-greenline:after {
+  content: "";
+  display: block;
+  background: url('../img/transptop.png') no-repeat;
+  background-size: cover;
+  height: 160px;
+  width: 100%;
+  position: absolute;
+}
+.text_page-main-content span.girl-talk {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color: #57B36E;
+  max-width: 200px;
+  width: 100%;
+  position: absolute;
+  right: 104px;
+  top: 90px;
+}
+.text_page-main-content span.girl-talk:before {
+  content: "";
+  background: url('../img/qqq.png') no-repeat;
+  display: block;
+  width: 131px;
+  height: 131px;
+  position: absolute;
+  right: 185px;
+  top: 3px;
+}
+.text_page-main-content {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 75px;
+}
+.text_page-main-content .breadcrumb {
+  background: none;
+  margin-top: 5px;
+  margin-bottom: 16px;
+  padding-left: 0;
+}
+.text_page-main-content .breadcrumb li a {
+  font-size: 13px;
+  color: #585869;
+  text-decoration: none;
+}
+.text_page-main-content .breadcrumb li a.active {
+  color: #00B46B;
+  cursor: default;
+  text-decoration: none;
+}
+.text_page-main-content h2 {
+  font-size: 20px;
+  color: #000;
+}
+.text_page-main-content p.goal {
+  font-size: 17px;
+  color: #00B46B;
+  font-style: italic;
+}
+.text_page-main-content p.intro {
+  font-size: 15px;
+  color: #595969;
+  margin-top: 22px;
+}
+.text_page-items-block {
+  margin-bottom: 30px;
+}
+.text_page-items-block h3 {
+  font-size: 20px;
+  color: #00B46B;
+  line-height: 30px;
+}
+.text_page-items-block ul {
+  margin: 25px 0;
+}
+.text_page-items-block ul li {
+  font-size: 15px;
+  color: #595969;
+  padding-bottom: 10px;
+}
+.text_page-items-block ul li span {
+  color: #00B46B;
+}
+.text_page-items-block .text_page-item:first-child {
+  margin-top: 40px;
+}
+.text_page-items-block .text_page-item:first-child p {
+  font-size: 15px;
+  color: #595969;
+  margin-top: 16px;
+}
+.text_page-items-block .text_page-item:nth-child(4) p.p1 {
+  font-size: 15px;
+  color: #595969;
+  margin: 24px 0px;
+}
+.text_page-items-block .text_page-item:nth-child(4) p.p2 {
+  font-size: 15px;
+  color: #595969;
+  margin-bottom: 60px;
+}
+.text_page-items-block .text_page-item:nth-child(5) h3 {
+  margin-bottom: 12px;
+}
+.text_page-items-block .text_page-item:nth-child(5) a.photogallery {
+  display: inline-block;
+  color: #595969;
+  font-size: 16px;
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border: 2px solid #688EC8;
+  border-radius: 60px;
+  height: 84px;
+  line-height: 20px;
+  padding-left: 108px;
+  padding-top: 17px;
+  text-decoration: none;
+  float: left;
+  transition-timing-function: ease-in;
+  transition-duration: 0.5s;
+}
+.text_page-items-block .text_page-item:nth-child(5) a.photogallery:before {
+  content: "";
+  display: block;
+  background: url("../img/text-page-1.png") no-repeat;
+  width: 82px;
+  height: 62px;
+  position: absolute;
+  left: 14px;
+  top: 8px;
+}
+.text_page-items-block .text_page-item:nth-child(5) a.photogallery span {
+  color: #00B46B;
+  text-decoration: underline;
+}
+.text_page-items-block .text_page-item:nth-child(5) a.photogallery:hover {
+  background: #a9b4ce;
+}
+.text_page-items-block .text_page-item:nth-child(5) a.photogallery:hover span {
+  text-decoration: none;
+}
+.text_page-items-block .text_page-item:nth-child(5) a.btn-order {
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  max-width: 230px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px 0 0 30px;
+  /* IE10+ */
+  background-image: -ms-linear-gradient(top, #94b1f2 0%, #7993cd 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #94b1f2 0%, #7993cd 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #94b1f2 0%, #7993cd 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #94b1f2), color-stop(100, #7993cd));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #94b1f2 0%, #7993cd 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to bottom, #94b1f2 0%, #7993cd 100%);
+  box-shadow: 2px 2px 5px #4B77C4;
+  border-radius: 60px;
+  line-height: 20px;
+  padding: 15px 0px 17px 0px;
+  position: relative;
+  transition: all 0.3s;
+}
+.text_page-items-block .text_page-item:nth-child(5) a.btn-order:hover {
+  box-shadow: none;
+}

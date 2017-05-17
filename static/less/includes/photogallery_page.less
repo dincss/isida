@@ -1,0 +1,253 @@
+.photogallery_page-main-content {
+	padding-left: 85px;
+	padding-right: 85px;
+
+	.breadcrumb {
+		background-color: transparent;
+		font-family: 'Roboto', sans-serif;
+		padding: 12px 0px 8px 0px;
+		margin-bottom: 12px;
+		li {
+			a {
+				color: #595968;
+				font-size: 12px;
+				text-decoration: none;
+				.hvr-underline-from-center(#595968);
+			}
+		}
+	}
+	h1 {
+		font-size: 21px;
+		color: #595968;
+		font-family: 'Roboto', sans-serif;
+		margin-bottom: 10px;
+	}
+}
+.photogallery_page-main-nav {
+	font-family: 'Roboto', sans-serif;
+	ul {
+		li {
+			display: inline-block;
+			margin-right: 45px;
+			a {
+				font-size: 14px;
+				color: #595968;
+				text-decoration: none;
+				.hvr-underline-to-center(#595968);
+			}
+			.active {
+				text-decoration: none;
+				color: #58B36F;
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.photogallery_page-gallery {
+	margin-top: 20px;
+	.photogallery_page-gallery-photoitem {
+		margin-bottom: 50px;
+		.n-hover {
+			img {
+				width: 100%;
+				height: auto;
+				-moz-transition: all 1s ease-out;
+				-o-transition: all 1s ease-out;
+				-webkit-transition: all 1s ease-out;
+			}
+		}
+		span.tags{
+			display: block;
+		}
+	}
+}
+
+
+
+.n-hover:hover img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+
+
+
+
+.n-hover {
+	position: relative;
+	width: 100%;
+	line-height: 0;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	text-align: center;
+}
+.n-hover:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+
+}
+.n-hover:hover:after {
+	background: rgba(137, 184, 147, 0.6);
+} 
+.photo-wrapper {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	img {
+		width: 100%;
+		height: auto;
+		-moz-transition: all 1s ease-out;
+		-o-transition: all 1s ease-out;
+		-webkit-transition: all 1s ease-out;
+	}
+}
+.n-hover {
+	span {
+		content: "";
+		display: block;
+		background: url('../img/photogallery-little-sprite.png') no-repeat;
+		background-position: 20px 0px;
+		position: absolute;
+		z-index: 100;
+		width: 100px;
+		height: 60px;
+		left: 0;
+		right: 0;
+		top: 42%;
+		margin: 0 auto;
+		-moz-transition: all 1s ease-out;
+		-o-transition: all 1s ease-out;
+		-webkit-transition: all 1s ease-out;
+		opacity: 0;
+	}
+	a {
+		display: inline-block;
+		color: #fff;
+		font-size: 16px;
+		font-family: 'Roboto', sans-serif;
+		position: absolute;
+		z-index: 222;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		top: 60%;
+		-moz-transition: all 1s ease-out;
+		-o-transition: all 1s ease-out;
+		-webkit-transition: all 1s ease-out;
+		opacity: 0;
+	}
+	&:hover a {
+		opacity: 1;
+	}
+	&:hover span {
+		opacity: 1;
+	}
+}
+.photogallery_page-gallery {
+
+	.heading {
+		display: inline-block;
+		color: #00B46B;
+		font-size: 17px;
+		margin-top: 30px;
+		margin-bottom: 28px;
+		text-decoration: none;
+		.hvr-underline-from-center(#57B36E);
+	}
+	.hash {
+		font-size: 13px;
+		color: #545454;
+		margin-right: 4px;
+		text-decoration: none;
+		transition-timing-function: ease-in;
+		transition-duration: 0.5s;
+		.hvr-underline-from-center(#6394C4);
+		&:hover {
+			color: #6394C4;
+		}
+	}
+}
+
+
+.photogallery_page-pagination {
+	margin-bottom: 43px;
+	a {
+		display: inline-block;
+		line-height: 22px;
+		text-decoration: none;
+		font-family:'Lato', sans-serif;
+		color: #595969;
+		font-size: 14px;
+		transition-timing-function: ease-in;
+		transition-duration: 0.5s;
+		.hvr-underline-to-center(#595968);
+	}
+	ul {
+		display: inline-block;
+		margin-left: 20px;
+		margin-right: 20px;
+		li {
+			display: inline-block;
+			margin-right: 2px;
+			margin-left: 2px;
+			a {
+				width: 22px;
+				height: 22px;
+				background: #58B36F;
+				color: #fff;
+				font-family:'Lato', sans-serif;
+				text-decoration: none;
+				border-radius: 50%;
+				font-size: 13px;
+				transition-timing-function: ease-in;
+				transition-duration: 0.5s;
+				&:hover {
+					background: #C7E2CE;
+				}
+				&:before {
+					display: none;
+				}
+
+			}
+			.active {
+				background: #C7E2CE;
+				cursor: default;
+			}
+		}
+	}
+}
+
+.photogallery_page-gradient-block {
+	.doctors, .schedule, .order, .reviews, .contacts, .your-question {
+		/* IE10+ */ 
+		background-image: -ms-linear-gradient(top, #6F91C9 0%, #5574A1 100%);
+		/* Mozilla Firefox */ 
+		background-image: -moz-linear-gradient(top, #6F91C9 0%, #5574A1 100%);
+		/* Opera */ 
+		background-image: -o-linear-gradient(top, #6F91C9 0%, #5574A1 100%);
+		/* Webkit (Safari/Chrome 10) */ 
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #6F91C9), color-stop(100, #5574A1));
+		/* Webkit (Chrome 11+) */ 
+		background-image: -webkit-linear-gradient(top, #6F91C9 0%, #5574A1 100%);
+		/* W3C Markup */ 
+		background-image: linear-gradient(to bottom, #6F91C9 0%, #5574A1 100%);
+		a {
+			color: #E9E9E9;
+		}
+
+	}
+}
+

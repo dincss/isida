@@ -1,0 +1,95 @@
+.doctorsection_page-main-content {
+	font-family: 'Roboto', sans-serif;
+	h2 {
+		font-size: 21px;
+		color: #000;
+		line-height: 70px;
+		padding-left: 25px;
+	}
+}
+.doctorsection_page-all div[class^="col"] {
+	padding-left: 0;
+	padding-right: 0;
+	// overflow: hidden;
+}
+.doctorsection_page-all-one-item {
+	position: relative;
+	border-right: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	img {
+		width: 100%;
+		position: relative;
+	}
+	.content {
+		position: absolute;
+		background: rgba(101, 189, 145, 0.7);
+		bottom: 0;
+		left: 0;
+		right: 0;
+		// min-height: 120px;
+		height: 0px;
+		// opacity: 0;
+		// padding-top: 20px;
+		padding-left: 42px;
+		-moz-transition: all 0.5s ease-out;
+		-o-transition: all 0.5s ease-out;
+		-webkit-transition: all 0.5s ease-out;
+		overflow: hidden;
+		p {
+			font-size: 16px;
+			color: #fff;
+			line-height: 20px;
+		}
+	}
+}
+.doctorsection_page-all-one-item:hover .content{
+	height: 120px;
+	padding-top: 20px;
+	// opacity: 1;
+}
+// .doctorsection_page-all .col-lg-4:nth-child(3) .doctorsection_page-all-one-item,
+// .doctorsection_page-all .col-lg-4:nth-child(6) .doctorsection_page-all-one-item {
+// 	border-right: none;
+// }
+.doctorsection_page-footer {
+	margin-top: 0 !important;
+}
+.doctorsection_page-main-content {
+	transition: all 1s;
+}
+.doctorsection_page-main-content.open {
+	padding-left: 405px;
+}
+.doctorsection_page-main-content {
+	.col-lg-12:before {
+		transition: all 1s;
+		content: "";
+		display: block;
+		background: url('../img/sidebar-shadow-pricelist.png') no-repeat;
+		width: 26px;
+		height: 70px;
+		position: absolute;
+		left: 0;
+		opacity: 0;
+	}
+}
+.doctorsection_page-main-content.open {
+	.col-lg-12:before {
+		content: "";
+		display: block;
+		background: url('../img/sidebar-shadow-pricelist.png') no-repeat;
+		width: 26px;
+		height: 70px;
+		position: absolute;
+		left: 0;
+		opacity: 1;
+	}
+}
+
+.doctorsection_page-footer.pricelist_page-footer:before {
+	display: none;
+}
+
+
+
+

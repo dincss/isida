@@ -1,0 +1,903 @@
+header.iwantsmile_page-header:after {
+  content: "";
+  display: block;
+  background: url('../img/transptop.png') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 130px;
+  position: absolute;
+}
+.iwantsmile_page-main-content {
+  padding-bottom: 80px;
+}
+.iwantsmile_page-heading {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 50px;
+}
+.iwantsmile_page-heading:after {
+  content: "";
+  display: block;
+  background: url('../img/qqq.png') no-repeat;
+  width: 131px;
+  height: 131px;
+  position: absolute;
+  right: 260px;
+  top: 30px;
+}
+.iwantsmile_page-heading span.girl-talk {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color: #57B36E;
+  max-width: 200px;
+  width: 100%;
+  position: absolute;
+  right: 70px;
+  top: 22px;
+}
+.iwantsmile_page-heading h1 {
+  font-size: 25px;
+  color: #000;
+  margin: 22px 0 52px 0;
+  position: relative;
+  margin-left: 50px;
+}
+.iwantsmile_page-heading h1:before {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_tooth-heading.png') no-repeat;
+  width: 39px;
+  height: 39px;
+  position: absolute;
+  left: -54px;
+  top: -10px;
+}
+.iwantsmile_page-heading p {
+  font-size: 14px;
+  color: #58B36F;
+  max-width: 815px;
+  width: 100%;
+}
+.pl90 {
+  padding-left: 90px;
+}
+.iwantsmile_page-necessity {
+  margin-top: 15px;
+}
+.iwantsmile_page-necessity h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item1,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item2,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item3,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item4 {
+  width: 25%;
+  position: relative;
+  float: left;
+}
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item1 .table,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item2 .table,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item3 .table,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item4 .table {
+  display: table;
+}
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item1 .table .table-row,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item2 .table .table-row,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item3 .table .table-row,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item4 .table .table-row {
+  display: table-row;
+}
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item1 .table .table-row .table-cell,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item2 .table .table-row .table-cell,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item3 .table .table-row .table-cell,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item4 .table .table-row .table-cell {
+  display: table-cell;
+  vertical-align: top;
+}
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item1 .table .table-row .table-cell span,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item2 .table .table-row .table-cell span,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item3 .table .table-row .table-cell span,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item4 .table .table-row .table-cell span {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: 0px -70px;
+  width: 70px;
+  height: 70px;
+}
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item1 .table .table-row .table-cell p,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item2 .table .table-row .table-cell p,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item3 .table .table-row .table-cell p,
+.iwantsmile_page-necessity .iwantsmile_page-necessity-item4 .table .table-row .table-cell p {
+  color: #595968;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 15px;
+}
+.iwantsmile_page-info-block {
+  max-width: 875px;
+  border: 2px solid #51B169;
+  border-radius: 45px;
+  margin: 50px auto 0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.iwantsmile_page-info-block p {
+  font-family: 'Roboto', sans-serif;
+  color: #595968;
+  font-size: 17px;
+  text-align: center;
+}
+.row.iwantsmile_page-steps-heading {
+  margin-left: 0;
+  margin-right: 0;
+}
+.iwantsmile_page-steps-heading {
+  margin-top: 45px;
+  margin-bottom: 70px;
+}
+.iwantsmile_page-steps-heading h3 {
+  color: #000;
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.iwantsmile_page-steps {
+  display: table;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 55px;
+}
+.iwantsmile_page-steps .table-row {
+  display: table-row;
+}
+.iwantsmile_page-steps .table-row .table-cell {
+  display: table-cell;
+  vertical-align: top;
+}
+.iwantsmile_page-steps .table-row .table-cell span {
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  background: #748DC5;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  float: left;
+  padding-top: 3px;
+}
+.iwantsmile_page-steps .table-row .table-cell p {
+  color: #595968;
+  font-size: 17px;
+  padding-left: 35px;
+  margin-bottom: 15px;
+}
+.pl85 {
+  padding-left: 85px;
+}
+.iwantsmile_page-benefits-text {
+  padding-left: 50px;
+}
+.iwantsmile_page-benefits-text p {
+  font-family: 'Roboto', sans-serif;
+  color: #595968;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.iwantsmile_page-benefits-text a {
+  display: inline-block;
+  color: #51B169;
+  font-size: 16px;
+  max-width: 300px;
+  width: 100%;
+  height: 84px;
+  border: 2px solid #748DC5;
+  border-radius: 50px;
+  padding-left: 80px;
+  padding-top: 15px;
+  text-decoration: underline;
+  position: relative;
+  margin-top: 25px;
+  transition-timing-function: ease-in;
+  transition-duration: 0.5s;
+}
+.iwantsmile_page-benefits-text a:hover {
+  text-decoration: none;
+  background: #a9b4ce;
+  color: #fff;
+}
+.iwantsmile_page-benefits-text a:before {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: -78px -78px;
+  width: 45px;
+  height: 55px;
+  position: absolute;
+  left: 18px;
+  top: 12px;
+}
+.iwantsmile_page-benefits-block {
+  background: url('../img/iwantsmile_green-block.png') no-repeat center center;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  max-width: 597px;
+  background-size: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  right: 0;
+  padding-bottom: 30px;
+}
+.iwantsmile_page-benefits-block h3 {
+  font-size: 21px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.iwantsmile_page-benefits-block h3 span {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: -170px -83px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 380px;
+  top: 79px;
+}
+.iwantsmile_page-benefits-block ul {
+  max-width: 315px;
+  width: 100%;
+  margin: 0 auto;
+}
+.iwantsmile_page-benefits-block ul li {
+  font-size: 14px;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+.iwantsmile_page-benefits-block .btn-cont {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  top: 25px;
+}
+.iwantsmile_page-benefits-block .btn-cont a {
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  max-width: 230px;
+  width: 100%;
+  /* IE10+ */
+  background-image: -ms-linear-gradient(top, #94b1f2 0%, #7993cd 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #94b1f2 0%, #7993cd 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #94b1f2 0%, #7993cd 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #94b1f2), color-stop(100, #7993cd));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #94b1f2 0%, #7993cd 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to bottom, #94b1f2 0%, #7993cd 100%);
+  box-shadow: 2px 2px 5px #4B77C4;
+  border-radius: 60px;
+  line-height: 20px;
+  padding: 15px 20px 17px 0;
+  position: relative;
+  transition: all 0.3s;
+}
+.iwantsmile_page-benefits-block .btn-cont a:hover {
+  box-shadow: none;
+}
+.iwantsmile_page-benefits-block .btn-cont a:after {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: -125px -78px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 21px;
+  top: 8px;
+}
+.iwantsmile_page-gallery {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 50px;
+}
+.iwantsmile_page-gallery h3 {
+  font-size: 20px;
+  color: #000;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.iwantsmile_page-gallery .iwantsmile_page-gallery-item {
+  float: left;
+  margin-right: 50px;
+}
+.iwantsmile_page-gallery .iwantsmile_page-gallery-item h5 {
+  text-align: center;
+  color: #4F5362;
+  font-size: 14px;
+  margin-top: 20px;
+}
+/*sidebar*/
+.iwantsmile_page-sidebar {
+  width: 0;
+  display: block;
+  overflow: hidden;
+  transition: all 1s;
+  position: absolute;
+  z-index: 2;
+}
+.iwantsmile_page-sidebar.open {
+  width: 408px;
+}
+.iwantsmile_page-main-content {
+  transition: all 1s ;
+}
+.iwantsmile_page-sidebar-inner {
+  width: 408px;
+}
+.iwantsmile_page-main-content.open {
+  padding-left: 408px;
+}
+.iwantsmile_page-main-content .col-lg-12.open {
+  padding-left: 43px;
+}
+.iwantsmile_page-main-content .pl90.open {
+  padding-left: 90px;
+}
+.iwantsmile_page-main-content .col-lg-6.open {
+  padding-left: 43px;
+}
+.iwantsmile_page-main-content.open {
+  position: relative;
+}
+.iwantsmile_page-main-content.open:before {
+  content: "";
+  display: block;
+  background: url('../img/sidebar-shadow-pricelist.png') no-repeat center center;
+  background-size: cover;
+  width: 26px;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  bottom: 5px;
+}
+.iwantsmile_page-footer {
+  margin-top: 0 !important;
+}
+.iwantsmile_page-necessity-item1.open,
+.iwantsmile_page-necessity-item2.open,
+.iwantsmile_page-necessity-item3.open,
+.iwantsmile_page-necessity-item4.open {
+  transition: all 1s ;
+  margin-left: 0;
+}
+.iwantsmile_page-sidebar {
+  font-family: 'Roboto', sans-serif;
+}
+.iwantsmile_page-sidebar .iwantsmile_page-sidebar-greenline {
+  background: url('../img/iwantsmile_greenline.png') no-repeat center center;
+  background-size: cover;
+  height: 52px;
+}
+.iwantsmile_page-sidebar .iwantsmile_page-sidebar-greenline h4 {
+  font-size: 17px;
+  color: #fff;
+  line-height: 52px;
+  text-align: center;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child {
+  text-align: center;
+  position: relative;
+  background: #fff;
+  padding-top: 20px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child h5 {
+  font-size: 18px;
+  color: #595968;
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child a {
+  display: inline-block;
+  max-width: 185px;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  /* IE10+ */
+  background-image: -ms-linear-gradient(top, #6ac48d 0%, #54b36d 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #6ac48d 0%, #54b36d 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #6ac48d 0%, #54b36d 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #6ac48d), color-stop(100, #54b36d));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #6ac48d 0%, #54b36d 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to bottom, #6ac48d 0%, #54b36d 100%);
+  box-shadow: 2px 4px 14px #54B36D;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 17px;
+  padding: 12px 12px 12px 0;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child a:hover {
+  /* IE10+ */
+  background-image: -ms-linear-gradient(top, #50b369 0%, #54b36d 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #50b369 0%, #54b36d 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #50b369 0%, #54b36d 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #50b369), color-stop(100, #54b36d));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #50b369 0%, #54b36d 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to bottom, #50b369 0%, #54b36d 100%);
+  box-shadow: none;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child a:after {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat center center;
+  background-position: -134px -97px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child span.grey-line {
+  display: block;
+  width: 370px;
+  height: 1px;
+  background: #F6F7F6;
+  margin: 0 auto 45px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child span.likes {
+  font-size: 18px;
+  color: #595968;
+  display: inline-block;
+  margin-right: 90px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child span.likes:before {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: 0px 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: -85px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child span.likes:after {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: -130px 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: 70px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child span.comments {
+  font-size: 18px;
+  color: #595968;
+  display: inline-block;
+  padding-bottom: 40px;
+  position: relative;
+  margin-right: 30px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child span.comments:after {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: -260px 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: 47px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) {
+  background: #F5F5F6;
+  padding-top: 45px;
+  text-align: center;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) h5 {
+  font-size: 18px;
+  color: #595968;
+  text-align: center;
+  position: relative;
+  padding: 24px 120px 0 120px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) a {
+  display: inline-block;
+  max-width: 185px;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  background: #CECECE;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 17px;
+  padding: 12px 0px 12px 0;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+  box-shadow: none;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) a:hover {
+  box-shadow: 2px 4px 14px #54B36D;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) span.grey-line {
+  display: block;
+  width: 370px;
+  height: 1px;
+  background: #F6F7F6;
+  margin: 0 auto 45px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) span.likes {
+  font-size: 18px;
+  color: #595968;
+  display: inline-block;
+  margin-right: 90px;
+  padding-bottom: 42px;
+  position: relative;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) span.likes:before {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: 0px 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: -85px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) span.likes:after {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: -130px 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: 70px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) span.comments {
+  font-size: 18px;
+  color: #595968;
+  display: inline-block;
+  padding-bottom: 42px;
+  position: relative;
+  margin-right: 30px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) span.comments:after {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: -260px 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: 47px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) {
+  background: #fff;
+  padding-top: 60px;
+  text-align: center;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) h5 {
+  font-size: 18px;
+  color: #595968;
+  text-align: center;
+  position: relative;
+  margin-top: 28px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) a {
+  display: inline-block;
+  max-width: 185px;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  background: #CECECE;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 17px;
+  padding: 12px 0px 12px 0;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) a:hover {
+  box-shadow: 2px 4px 14px #54B36D;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) span.grey-line {
+  display: block;
+  width: 370px;
+  height: 1px;
+  background: #F6F7F6;
+  margin: 0 auto 45px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) span.likes {
+  font-size: 18px;
+  color: #595968;
+  display: inline-block;
+  margin-right: 90px;
+  padding-bottom: 42px;
+  position: relative;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) span.likes:before {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: 0px 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: -85px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) span.likes:after {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: -130px 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: 70px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) span.comments {
+  font-size: 18px;
+  color: #595968;
+  display: inline-block;
+  padding-bottom: 42px;
+  position: relative;
+  margin-right: 30px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) span.comments:after {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: -260px 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: 47px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) {
+  background: #F5F5F6;
+  padding-top: 55px;
+  text-align: center;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) h5 {
+  font-size: 18px;
+  color: #595968;
+  text-align: center;
+  position: relative;
+  padding: 22px 100px 0 100px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) h5:after {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: -360px 0px;
+  width: 90px;
+  height: 80px;
+  position: absolute;
+  top: -100px;
+  right: 12px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) a {
+  display: inline-block;
+  max-width: 185px;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 50px;
+  /* IE10+ */
+  background-image: -ms-linear-gradient(top, #6ac48d 0%, #54b36d 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #6ac48d 0%, #54b36d 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #6ac48d 0%, #54b36d 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #6ac48d), color-stop(100, #54b36d));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #6ac48d 0%, #54b36d 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to bottom, #6ac48d 0%, #54b36d 100%);
+  box-shadow: 2px 4px 14px #54B36D;
+  text-align: center;
+  text-decoration: none;
+  line-height: 17px;
+  padding: 12px 0px 12px 0;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) a:hover {
+  /* IE10+ */
+  background-image: -ms-linear-gradient(top, #50b369 0%, #54b36d 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #50b369 0%, #54b36d 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #50b369 0%, #54b36d 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #50b369), color-stop(100, #54b36d));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #50b369 0%, #54b36d 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to bottom, #50b369 0%, #54b36d 100%);
+  box-shadow: none;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) span.grey-line {
+  display: block;
+  width: 370px;
+  height: 1px;
+  background: #F6F7F6;
+  margin: 0 auto 45px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) span.likes {
+  font-size: 18px;
+  color: #595968;
+  display: inline-block;
+  margin-right: 90px;
+  padding-bottom: 42px;
+  position: relative;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) span.likes:before {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: 0px 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: -85px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) span.likes:after {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: -130px 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: 70px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) span.comments {
+  font-size: 18px;
+  color: #595968;
+  display: inline-block;
+  padding-bottom: 42px;
+  position: relative;
+  margin-right: 30px;
+}
+.iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) span.comments:after {
+  content: "";
+  display: block;
+  background: url('../img/iwantsmile_sprite.png') no-repeat;
+  background-position: -260px 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: 47px;
+}
+.iwantsmile_page-sidebar-icesmile-block {
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
+  border-left: 12px solid transparent;
+  padding-right: 12px;
+}
+.iwantsmile_page-sidebar-icesmile-block:hover {
+  border-left: 12px solid #688EC8;
+}
+/*modal popup*/
+.iwantsmile_page-benefits-modal .modal-dialog {
+  width: 750px;
+}
+.modal-backdrop {
+  background-color: #fff;
+}
+.modal-backdrop.in {
+  opacity: 0.6;
+}
+.iwantsmile_page-benefits-modal .modal-content {
+  border-radius: 0px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+}
+.iwantsmile_page-benefits-modal .modal {
+  font-family: 'Roboto', sans-serif;
+}
+.iwantsmile_page-benefits-modal .modal .modal-header {
+  border-bottom: none;
+}
+.iwantsmile_page-benefits-modal .modal .modal-header img {
+  float: right;
+  cursor: pointer;
+  margin: 20px 20px 0 0;
+}
+.iwantsmile_page-benefits-modal .modal .modal-body {
+  padding-left: 105px;
+  padding-right: 80px;
+}
+.iwantsmile_page-benefits-modal .modal .modal-body h1 {
+  color: #000;
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 75px;
+}
+.iwantsmile_page-benefits-modal .modal .modal-body ol li {
+  list-style: decimal;
+  color: #595968;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.iwantsmile_page-benefits-modal .modal .modal-footer {
+  border-top: none;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.iwantsmile_page-benefits-modal .modal .modal-footer h3 {
+  color: #000;
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
+.fancybox-close {
+  background-image: url('../img/close-btn.png');
+  background-size: 30px 30px;
+  width: 30px;
+  height: 30px;
+  top: 15px;
+  right: 15px;
+}
+.iwantsmile_page-gallery .fancybox-prev,
+.iwantsmile_page-gallery .fancybox-next {
+  display: none !important;
+}
+/*burger*/

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<ul>
+  <iframe src="http://html.4-com.pro/acess-html/static/main.html" width="450" height="450"></iframe>
+
+  <script>
+  	documet.getElementsByTagName('li').addEventListener('click', function(e){
+  		var l = e.target.getAttribute('url').value
+  		documet.getElementsByTagName('iframe').attribute('url', l)
+  	})
+  </script>
+</body>
+</html>

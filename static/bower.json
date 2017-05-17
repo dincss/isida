@@ -1,0 +1,32 @@
+{
+  "name": "4-com.pro",
+  "description": "company",
+  "main": "",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "authors": [
+    "4-com"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "3",
+    "slick-carousel": "^1.6.0",
+    "malihu-custom-scrollbar-plugin": "^3.1.5",
+    "fancybox": "fancyBox#^2.1.6"
+  }
+}

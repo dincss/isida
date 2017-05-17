@@ -1,0 +1,327 @@
+@media (min-width: 1600px) and (max-width: 1800px) {
+  .pricelist_page-header p {
+    font-size: 12px;
+  }
+  .pricelist_page-header .location,
+  .pricelist_page-header .telephone,
+  .pricelist_page-header .schedule,
+  .pricelist_page-header .faq {
+    max-width: 12%;
+    margin-right: 60px;
+  }
+  .pricelist_page-header .telephone {
+    max-width: 10%;
+  }
+  .pricelist_page-header .schedule {
+    max-width: 10%;
+  }
+  /*one-doctor*/
+  .pricelist_page-sidebar-inner.onedoctor_page-sidebar-inner.open {
+    width: 280px;
+  }
+  .pricelist_page-sidebar.onedoctor_page-sidebar.open {
+    width: 280px;
+  }
+  .onedoctor_page-main-content.open {
+    padding-left: 280px;
+  }
+  .pricelist_page-sidebar-inner.onedoctor_page-sidebar-inner ul.inner-list-accord li a {
+    font-size: 13px;
+  }
+  .pricelist_page-sidebar-inner.onedoctor_page-sidebar-inner .panel-default > .panel-heading .panel-title a {
+    font-size: 15px;
+  }
+  .main_page-header .location,
+  .main_page-header .telephone,
+  .main_page-header .schedule,
+  .main_page-header .faq {
+    max-width: 12%;
+    margin-right: 40px;
+  }
+  .main_page-header .location {
+    min-width: 230px;
+  }
+  .main_page-header p {
+    font-size: 12px;
+  }
+  .main_page-header .social {
+    float: left;
+  }
+  .pricelist_page-header .logo img {
+    margin-right: 50px;
+  }
+  .onedoctor-slider .onedoctor-social {
+    margin-bottom: 35px;
+  }
+  .onedoctor-slider2 .onedoctor-social {
+    margin-bottom: 35px;
+  }
+}
+@media (min-width: 1380px) and (max-width: 1600px) {
+  .pricelist_page-header p {
+    font-size: 12px;
+  }
+  .pricelist_page-header {
+    font-size: 12px;
+  }
+  .pricelist_page-header .location,
+  .pricelist_page-header .telephone,
+  .pricelist_page-header .schedule,
+  .pricelist_page-header .faq {
+    max-width: 150px;
+    margin-right: 60px;
+  }
+  .pricelist_page-header .location {
+    min-width: 180px;
+  }
+  .pricelist_page-header .telephone {
+    margin-right: 70px;
+  }
+  .pricelist_page-header .faq {
+    margin-right: 0;
+  }
+  .pricelist_page-header .logo img {
+    margin-right: 50px;
+    width: 260px;
+  }
+  .pricelist_page-header .call {
+    float: right;
+  }
+  .n-hover a {
+    top: 65%;
+  }
+  .iwantsmile_page-benefits-block h3 {
+    padding-bottom: 5px;
+  }
+  .pricelist_page-pricelist-itself .pricelist-name,
+  .pricelist_page-pricelist-itself .pricelist_page {
+    font-size: 16px;
+  }
+  .pricelist_page-sidebar.open {
+    width: 280px;
+  }
+  .pricelist_page-sidebar-inner.open {
+    width: 280px;
+  }
+  .pricelist_page-main-content.open {
+    padding-left: 280px;
+  }
+  .sidebar-heading h4 {
+    font-size: 14px;
+    padding-left: 30px;
+  }
+  .pricelist_page-sidebar-inner ul.inner-list-accord li a {
+    font-size: 13px;
+  }
+  .pricelist_page-sidebar-inner .panel-default > .panel-heading .panel-title a {
+    font-size: 15px;
+  }
+  /*one-doctor*/
+  .pricelist_page-sidebar-inner.onedoctor_page-sidebar-inner.open {
+    width: 280px;
+  }
+  .pricelist_page-sidebar.onedoctor_page-sidebar.open {
+    width: 280px;
+  }
+  .onedoctor_page-main-content.open {
+    padding-left: 280px;
+  }
+  .pricelist_page-sidebar-inner.onedoctor_page-sidebar-inner ul.inner-list-accord li a {
+    font-size: 13px;
+  }
+  .pricelist_page-sidebar-inner.onedoctor_page-sidebar-inner .panel-default > .panel-heading .panel-title a {
+    font-size: 15px;
+  }
+  .pricelist_page-sidebar.doctorsection_page-sidebar.open {
+    width: 280px;
+  }
+  .pricelist_page-sidebar-inner.doctorsection_page-sidebar-inner {
+    width: 280px;
+  }
+  .doctorsection_page-main-content.open {
+    padding-left: 280px;
+  }
+  .clinicsection_page-main-content.open {
+    padding-left: 280px;
+  }
+  .pricelist_page-sidebar.price_page-sidebar.open {
+    width: 280px;
+  }
+  .pricelist_page-sidebar.price_page-sidebar-inner {
+    width: 280px;
+  }
+  .prices_page-main-content.open {
+    padding-left: 280px;
+  }
+  .pricelist_page-sidebar.gallery_page-sidebar.open {
+    width: 280px;
+  }
+  .pricelist_page-sidebar-inner.gallery_page-sidebar-inner {
+    width: 280px;
+  }
+  .gallery_page-main-content.open {
+    padding-left: 280px;
+  }
+  .news_page-main-content-news-block .news_page-main-content-news-item:first-child {
+    position: relative;
+  }
+  .news_page-main-content-news-block .news_page-main-content-news-item:first-child:after {
+    right: -80px;
+  }
+  .main_page-header {
+    font-size: 12px;
+  }
+  .main_page-header .location,
+  .main_page-header .telephone,
+  .main_page-header .schedule,
+  .main_page-header .faq {
+    max-width: 130px;
+    margin-right: 90px;
+  }
+  .main_page-header .location {
+    min-width: 180px;
+  }
+  .main_page-header .schedule {
+    margin-right: 75px;
+  }
+  .main_page-header .faq {
+    margin-right: 0;
+  }
+  .main_page-header .logo img {
+    margin-right: 50px;
+    width: 280px;
+  }
+  .main_page-header .social {
+    float: left;
+  }
+  .price_page-sidebar .load-pdf p {
+    position: relative;
+    left: -80px;
+  }
+  .price_page-sidebar .load-pdf img {
+    right: 150px;
+  }
+  .onedoctor-slider .onedoctor-social {
+    margin-bottom: 12px;
+    padding-left: 4px;
+  }
+  .onedoctor-slider .onedoctor-social span.share-text {
+    margin-right: 7px;
+  }
+  .onedoctor-slider2 .onedoctor-social {
+    margin-bottom: 12px;
+    padding-left: 4px;
+  }
+  .onedoctor-slider2 .onedoctor-social span.share-text {
+    margin-right: 7px;
+  }
+  .featured-feedback-block h3 {
+    padding-left: 0;
+    text-align: center;
+  }
+  .featured-feedback-block h3:before {
+    left: 40px;
+  }
+}
+@media (min-width: 1380px) and (max-width: 1900px) {
+  .hospital-functions-nav .doctors {
+    max-width: 14.5%;
+  }
+  .hospital-functions-nav .doctors a:before {
+    top: -30%;
+  }
+  .hospital-functions-nav .schedule {
+    max-width: 14.5%;
+  }
+  .hospital-functions-nav .order {
+    max-width: 14.5%;
+  }
+  .hospital-functions-nav .reviews {
+    max-width: 14.5%;
+  }
+  .hospital-functions-nav .contacts {
+    max-width: 14.5%;
+  }
+  .hospital-functions-nav .your-question {
+    max-width: 27.5%;
+    padding-right: 20px;
+  }
+  .hospital-functions-nav .doctors a,
+  .hospital-functions-nav .schedule a,
+  .hospital-functions-nav .order a,
+  .hospital-functions-nav .reviews a,
+  .hospital-functions-nav .contacts a {
+    font-size: 15px;
+    margin-left: 80px;
+    margin-right: 8px;
+    padding-top: 5px;
+  }
+  .hospital-functions-nav .schedule a,
+  .hospital-functions-nav .order a,
+  .hospital-functions-nav .reviews a,
+  .hospital-functions-nav .contacts a {
+    line-height: 17px;
+  }
+  .slider-bgc {
+    background-position: 0 0px;
+  }
+  /*iwantsmile_page*/
+  .iwantsmile_page-necessity-item1,
+  .iwantsmile_page-necessity-item2,
+  .iwantsmile_page-necessity-item3,
+  .iwantsmile_page-necessity-item4 {
+    margin-left: 0px !important;
+    width: 25% !important;
+  }
+  .iwantsmile_page-necessity-item1.open,
+  .iwantsmile_page-necessity-item2.open,
+  .iwantsmile_page-necessity-item3.open,
+  .iwantsmile_page-necessity-item4.open {
+    width: 25%;
+  }
+  .iwantsmile_page-sidebar.open {
+    width: 350px;
+  }
+  .iwantsmile_page-sidebar-inner {
+    width: 350px;
+  }
+  .iwantsmile_page-sidebar-shape-tooth-block span.likes:before {
+    left: -68px;
+  }
+  .iwantsmile_page-main-content.open {
+    padding-left: 350px;
+  }
+  .pricelist_page-pricelist-itself h5.pricelist-name,
+  .pricelist_page-pricelist-itself h6.pricelist_page {
+    font-size: 16px;
+  }
+  .prices_page-itself .table .table-row .table-cell h4,
+  .prices_page-itself .table .table-row .table-cell h5 {
+    font-size: 16px;
+  }
+  /*main-page*/
+  .main_page-slider-footer-doctor-item .info-doc {
+    min-height: 155px;
+  }
+  .slider-featured {
+    display: none;
+  }
+  .iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child span.likes,
+  .iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) span.likes,
+  .iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) span.likes,
+  .iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) span.likes {
+    font-size: 15px;
+  }
+  .iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child span.likes:before,
+  .iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) span.likes:before,
+  .iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) span.likes:before,
+  .iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) span.likes:before {
+    left: -70px;
+  }
+  .iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:first-child span.comments,
+  .iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(2) span.comments,
+  .iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(3) span.comments,
+  .iwantsmile_page-sidebar-blocks-section .iwantsmile_page-sidebar-icesmile-block:nth-child(4) span.comments {
+    font-size: 15px;
+  }
+}

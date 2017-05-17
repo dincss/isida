@@ -1,0 +1,225 @@
+.onedoctor_page-main-content {
+	font-family: 'Roboto', sans-serif;
+	h2 {
+		font-size: 21px;
+		color: #000;
+		height: 70px;
+		line-height: 70px;
+		padding-left: 25px;
+	}
+}
+.onedoctor-slider {
+	position: relative;
+	.pp5 {
+		position: absolute;
+		top: 375px;
+		cursor: pointer;
+		left: -30px;
+	}
+	.nn5 {
+		position: absolute;
+		right: 0;
+		top: 375px;
+		cursor: pointer;
+		border-bottom-left-radius: 10px;
+		border-top-left-radius: 10px;
+		-webkit-box-shadow: 1px 2px 55px -10px rgba(0,0,0,0.84);
+		-moz-box-shadow: 1px 2px 55px -10px rgba(0,0,0,0.84);
+		box-shadow: 1px 2px 55px -10px rgba(0,0,0,0.84);
+	}
+	.info-column {
+		background: #DEDEDE;
+		img.big-pic {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.doctor-info {
+		position: relative;
+		span.close-btn {
+			position: absolute;
+			right: 45px;
+			top: 35px;
+			cursor: pointer;
+		}
+		h3 {
+			color: #595969;
+			font-size: 20px;
+			margin-top: 67px;
+			margin-bottom: 12px;
+			&:after {
+				content: "";
+				display: block;
+				width: 263px;
+				height: 3px;
+				background: #00B46B;
+				margin-top: 12px;
+			}
+		}
+		h4 {
+			color: #595969;
+			font-size: 20px;
+			text-transform: uppercase;
+		}
+		p.history {
+			font-size: 15px;
+			color: #595969;
+			// padding-right: 520px;
+			margin-top: 28px;
+		}
+		.reviews {
+			position: relative;
+			margin-top: 30px;
+			a {
+				display: inline-block;
+				color: #00B264;
+				font-size: 16px;
+				max-width: 202px;
+				width: 100%;
+				padding-left: 70px;
+				border: 2px solid #688EC8;
+				border-radius: 60px;
+				line-height: 19px;
+				padding-top: 15px;
+				padding-bottom: 20px;
+				text-decoration: none;
+				transition-timing-function: ease-in;
+				transition-duration: 0.5s;
+				span {
+					background: url('../img/onedoctor-review-icon.png') no-repeat;
+					background-size: cover;
+					width: 40px;
+					height: 38px;
+					position: absolute;
+					left: 18px;
+					padding-left: 10px;
+					padding-top: 7px;
+				}
+				&:hover {
+					background: #a9b4ce;
+					color: #fff;
+				}
+			}
+			&:after {
+				content: "";
+				display: block;
+				width: 263px;
+				height: 3px;
+				background: #00B46B;
+				margin-top: 30px;
+			}
+		}
+	}
+	.doctor-cabinet {
+		margin-top: 14px;
+		p {
+			color: #595969;
+			font-size: 17px;
+			margin-bottom: 10px;
+		}
+		img {
+			float: left;
+			margin-right: 22px;
+		}
+	}
+	.doctor-sum {
+		p {
+			color: #595969;
+			font-size: 17px;
+			&:before {
+				content: "";
+				display: block;
+				width: 263px;
+				height: 3px;
+				background: #00B46B;
+				margin-top: 16px;
+				margin-bottom: 20px;
+			}
+		}
+		span.threed {
+			display: block;
+			font-size: 17px;
+			color: #00B46B;
+			// padding-right: 820px;
+			margin-top: 30px;
+		}
+		span.rest-text {
+			display: block;
+			color: #595969;
+			font-size: 13px;
+			margin-top: 12px;
+			// padding-right: 430px;
+		}
+		a.hashword {
+			font-size: 12px;
+			color: #595969;
+		}
+	}
+	.onedoctor-social {
+		padding-left: 35px;
+		span.share-text {
+			margin-right: 14px;
+		}
+	}
+}
+.share-pricelist-block.onedoctor-social {
+	.share-f-facebook {
+		i {
+			position: relative;
+			top: 1px;
+		}
+	}
+}
+
+.onedoctor-slider-inner div[class^="col"] {
+	padding-left: 0;
+	padding-right: 0;
+	// overflow: hidden;
+}
+.onedoctor-slider-inner .info-column.col-lg-4{
+	padding-left: 0;
+	padding-right: 0;
+}
+.onedoctor-slider-inner .info-column.col-lg-5{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.onedoctor-slider .row{
+	display: flex;
+}
+.onedoctor-slider .info-column {
+	display: flex;
+}
+.onedoctor-slider .slider-item-basis{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+}
+.onedoctor_page-main-content {
+	transition: all 1s;
+}
+.onedoctor_page-main-content.open {
+	padding-left: 405px;
+}
+.onedoctor_page-main-content .col-lg-5 {
+	transition: all 1s;
+}
+.onedoctor_page-main-content .col-lg-7 {
+	transition: all 1s;
+}
+
+
+.onedoctor_page-footer {
+	margin-top: 0 !important;
+	&:before {
+		z-index: 3 !important;
+	}
+
+}
+
+.pricelist_page-footer.onedoctor_page-footer {
+	&:before {
+		display: none;
+	}
+}
